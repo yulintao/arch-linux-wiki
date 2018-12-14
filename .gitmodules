@@ -1,0 +1,3 @@
+[submodule "vim-as-ide"]
+	path = vim-as-ide
+	url = https://github.com/yulintao/vim-as-ide.git
