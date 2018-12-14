@@ -13,5 +13,9 @@
 ```
 git submodule add https://github.com/yulintao/vim-as-ide.git vim-as-ide
 ```
-添加进来的,使用时需要git submodule update --init --recursive
+添加进来的,使用时需要
+
+```
+git submodule update --init --recursive
+```
 

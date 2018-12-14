@@ -2,6 +2,16 @@
 
 ```
 git clone https://github.com/shadowsocks/shadowsocks.git -b master
+下面为一个ss-client的配置文件,配置文件放到/etc/shadowsocks/config.json下面
+{
+    "server":"serverip",
+    "server_port":1234,
+    "local_port":1234,
+    "local_address":"0.0.0.0",
+    "password":"password",
+    "timeout":600,
+    "method":"encrypt-method"
+}
 
 将shadowsocks.service复制到/lib/systemd/syste/下面，
 然后执行命令：
