@@ -1,0 +1,31 @@
+
+
+安装deb包
+
+参考网址为：[ makepkg安装deb ] (https://wiki.archlinux.org/index.php/makepkg)
+
+安装形如skype类型的deb包到archlinux里面时需要用下面几个命令
+```
+git clone https://aur.archlinux.org/skypeforlinux-stable-bin.git
+makepkg -S xxx.tar.gz
+makepkg --syncdeps
+makepkg --install 或者 pacman -U pkgname-pkgver.pkg.tar.xz
+```
+
+忘记密钥环
+
+删掉/home/`whoami`/.local/share/keyring重新设置密钥
+
+
+安装完成teamviewer以后需要运行下列命令，解决服务器为准备好问题
+```
+sudo teamviewer --daemon enable
+```
+
+安装 **skypeforlinux-bin,vmware-workstation**
+
+vmware-workstation 需要在```/etc/init.d/```目录建立启动脚本，所以需要
+创建这个init.d目录，同时在重启以后需要启动vmware需要手动运行```/etc/init.d/vmware start```
+脚本
+
+
