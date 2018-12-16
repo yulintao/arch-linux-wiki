@@ -28,7 +28,23 @@ vmware-workstation 需要在```/etc/init.d/```目录建立启动脚本，所以�
 创建这个init.d目录，同时在重启以后需要启动vmware需要手动运行```/etc/init.d/vmware start```
 脚本
 
-安装软件时出现密钥不对的问题
-```pacman-key --populate archlinux```
+安装软件时出现密钥不对的问题,(无法远程查找到密钥)
+
+```
+原因：
+由于升级到了 gnupg-2.1，pacman 上游更新了密钥环的格式，这使得本地的主密钥无法签署其它密钥
+解决办法：
+首先安装haveged 用来生成系统熵值的守护进程，包括生成新的密钥环
+pacman -Syu haveged
+systemctl start haveged
+systemctl enable haveged
+
+rm -fr /etc/pacman.d/gnupg
+pacman-key --init
+pacman-key --populate archlinux
+
+pacman-key --populate archlinuxcn
+
+```
 
 
