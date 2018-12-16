@@ -1,2 +1,6 @@
+usb制作启动盘，首先需要将整个的U盘内容备份，然后依次执行如下命令
+
+删除U盘上所有的分区信息
 sudo wipefs --all /dev/sdb
+将iso写入到U盘
 sudo dd if=archlinux-2018.12.01-x86_64.iso of=/dev/sdb bs=8M status=progress oflag=sync
