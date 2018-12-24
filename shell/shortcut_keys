@@ -21,4 +21,9 @@ at> CTRL + D
 上面的命令能在周五下午10时38分运行程序cowsay。
 
 
+tmux 命令
+
+ctrl+q+z 最大化
+
+
 
