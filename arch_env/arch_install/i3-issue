@@ -1,2 +1,5 @@
 设置分辨率:
 xrandr --output HDMI-1 --mode 1920x1080
+(https://wiki.archlinux.org/index.php/xrandr#Manage_2-monitors)
+(https://wiki.archlinux.org/index.php/xrandr)
+
