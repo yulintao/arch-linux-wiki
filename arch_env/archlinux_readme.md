@@ -46,5 +46,11 @@ pacman-key --populate archlinux
 pacman-key --populate archlinuxcn
 
 ```
+终端显示英文:
 
+```
+ if [ "$TERM"="linux" ] ;then
+    export LANG="en_US.UTF-8" 
+ fi                          
+```
 
