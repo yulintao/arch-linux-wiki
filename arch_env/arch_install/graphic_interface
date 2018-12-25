@@ -14,3 +14,6 @@ feh --bg-scale /usr/share/background/Windows-10-blue-light_2560x1440.jpg
 
 pacman -S i3-wm dmenu rxvt-unicode i3status
 
+将所有终端窗口边框隐藏,将下面加到i3/config里面
+new_window 1pixel
+
