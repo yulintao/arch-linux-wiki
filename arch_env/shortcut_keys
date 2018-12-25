@@ -1,0 +1,8 @@
+ctrl+alt+c   copy
+ctrl+alt+v   past 
+
+重载urxvt
+xrdb ~/.Xresources
+
+重载i3
+win + shift + r

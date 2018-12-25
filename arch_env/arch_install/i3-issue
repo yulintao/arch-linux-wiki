@@ -6,5 +6,5 @@ xrandr --output HDMI-1 --mode 1920x1080
 
 disable touchpad
 需要用到这两个包：libinput xf86-input-libinput
-然后将/usr/share/X11/xorg.conf.d/70-synaptics.conf 拷贝到/etc/X11/xorg.conf.d下面，然后在.config/i3/config里面设置一条synclient TouchpadOff=1
+然后将/usr/share/X11/xorg.conf.d/70-synaptics.conf 拷贝到/etc/X11/xorg.conf.d下面，然后在.config/i3/config里面设置一条exec synclient TouchpadOff=1
 

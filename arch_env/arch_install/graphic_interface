@@ -9,5 +9,8 @@ export LANG=zh_CN.UTF-8
 export LANGUAGE=zh_CN:en_US
 export LC_CTYPE=en_US.UTF-8
 
+添加桌面背景图:
+feh --bg-scale /usr/share/background/Windows-10-blue-light_2560x1440.jpg
+
 pacman -S i3-wm dmenu rxvt-unicode i3status
 
