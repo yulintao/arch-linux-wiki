@@ -10,6 +10,7 @@ zsh:zshell
 pulsemixer:声音调节快捷键等
 mpc:视频播放/暂停
 toxcore  p2p 聊天工具
+zathura pdf 阅读器
 
 ffmpeg
 vim
