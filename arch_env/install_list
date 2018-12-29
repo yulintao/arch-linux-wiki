@@ -1,5 +1,5 @@
 vim:编辑器
-rofi:命令搜索
+rofi:命令搜索类似dmenu
 rxvt-uicode:终端
 i3status:状态栏
 i3-gaps 图形界面（i3-wm改版）
@@ -9,7 +9,7 @@ ffmpeg 录屏软件
 zsh:zshell
 pulsemixer:声音调节快捷键等
 mpc:视频播放/暂停
-
+toxcore  p2p 聊天工具
 
 ffmpeg
 vim
@@ -47,4 +47,4 @@ the_silver_searcher
 rofi
 ntfs-3g
 clang
-toxcore
+toxcore 
