@@ -21,6 +21,8 @@ makepkg --install 或者 pacman -U pkgname-pkgver.pkg.tar.xz
 ```
 sudo teamviewer --daemon enable
 ```
+archlinux 需要安装lightdm lightdm-gtk-greeter作为启动器,
+用以解决启动teamviewer时候启动不了的问题，默认的xorg的方式会导致启动不料teamviewer
 
 安装 **skypeforlinux-bin,vmware-workstation**
 
