@@ -4,5 +4,9 @@ ctrl+alt+v   past
 重载urxvt
 xrdb ~/.Xresources
 
-重载i3
-win + shift + r
+mod + shift + r 重载i3
+mod + e  文件管理器
+mod + d 启动应用程序
+ffplay 播放视频，音频
+ffmpeg 视频转换，屏幕录制
+wps(et,wpp,wps|分别表示excel,ppt,word)
