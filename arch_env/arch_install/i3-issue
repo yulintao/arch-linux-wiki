@@ -16,6 +16,15 @@ export QT_IM_MODULE=fcitx
 export XMODIFIERS="@im=fcitx"
 在进入tty以后显示方块，可以通过LANG=en_US.UTF-8命令来解决这个问题：
 
+安装oh-my-zsh以后前面提示符显示方块问题解决：
+安装powerline字体：https://github.com/powerline/fonts
+下载字体后手动移动到/usr/share/fonts/xx 对应的目录中，如果下载的是ttf的字体就移动到/usr/share/fonts/ttf目录
+,然后执行fc-cache -f -v重新部署缓存字体，然后查看对应的字体名称fc-list |grep Powerline会列出如下字体：
+/usr/share/fonts/TTF/Meslo LG M Regular for Powerline.ttf: Meslo LG M for Powerline:style=Regular
+/usr/share/fonts/OTF/Source Code Pro for Powerline.otf: Source Code Pro for Powerline:style=Regular
+把需要使用的字体名字写道~/.Xresources里面，例如：
+URxvt.font:xft:Source Code Pro:antialias=True:pixelsize=15,xft:SourceHanSerifCN-Medium:pixelsize=15,xft:Noto Color Emoji:pixelsize=15,FontAwesome:style=Regular,xft:Meslo LG M for Powerline:pixelsize=15,xft:Source Code Pro for Powerline:pixelsize=15
+
 设置屏幕亮度：数字表示设置的亮度值
 echo 500 > /sys/class/backlight/intel_backlight/brightness
 
