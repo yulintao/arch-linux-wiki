@@ -1,55 +1,44 @@
-vim:编辑器
-rofi:命令搜索类似dmenu
-rxvt-uicode:终端
-i3status:状态栏
-i3-gaps 图形界面（i3-wm改版）
-fcitx fcitx-im 输入法
-feh 设置背景图片
-ffmpeg 录屏软件
-zsh:zshell
-pulsemixer:声音调节快捷键等
-mpc:视频播放/暂停
-mpd:音乐播放
-scrot : 截屏软件
-toxcore  p2p 聊天工具
-zathura pdf 阅读器
-radare2  命令行反汇编工具
-zsh-syntax-highlighting:命令行语法高亮
+vim				编辑器
+rofi				命令搜索类似dmenu
+rxvt-uicode			终端
+i3status			状态栏
+i3-gaps				图形界面（i3-wm改版）
 
-ffmpeg
-vim
-zsh
-i3-gaps
-rxvt-unicode
-i3status
-shadowsocks-libev
-zathura
-thunar
-fcitx
-net-tools
-polipo
-ttf-font-awesome
+fcitx fcitx-im			输入法
 fcitx-sunpinyin
 fcitx-configtool
 fcitx-im
 fcitx-table-other
-libinput 
-xf86-input-synaptics
-i3lock
-feh
-tmux
-adobe-source-han-serif-cn-fonts
+
+feh 				设置背景图片
+ffmpeg				录屏软件
+zsh				zshell
+pulsemixer			声音调节快捷键等
+mpc				视频播放/暂停
+mpd				音乐播放服务端
+mpc				音乐播放客户端
+toxcore				p2p 聊天工具
+zathura				pdf 阅读器
+thunar				文件资源管理器
+shadowsocks-libev		翻墙
+net-tools			网络管理器
+polipo				socket5 转 http代理
+ttf-font-awesome		字体
+adobe-source-han-serif-cn-fonts	宋体
 awesome-terminal-fonts
-pavucontrol
-mpc
-pulseaudio
-alsa-utils
-pulsemixer
-telegram-desktop
-fd
-highlight
-the_silver_searcher
-rofi
-ntfs-3g
-clang
-toxcore 
+libinput			触摸板音频输入
+xf86-input-synaptics
+i3lock 				锁屏
+tmux				多终端分屏
+pavucontrol			音频管理
+pulseaudio			音频管理
+alsa-utils			声卡设置，声音管理
+pulsemixer			声卡
+telegram-desktop		tg
+fd				文件搜索
+highlight			命令行高亮
+the_silver_searcher		文件内容搜索ag类似grep
+rofi				类似dmenu，索引可执行程序
+ntfs-3g				挂在ntfs硬盘
+clang 
+toxcore				即时p2p聊天工具
