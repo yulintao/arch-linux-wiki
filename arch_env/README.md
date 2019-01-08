@@ -112,7 +112,7 @@ install i3-wm
 ```
 pacman -S fcitx fcitx-im 
 ```
-然后在.xinitrc或者/etc/profile 里面添加如下几个变量声明
+然后在.xinitrc或者/etc/profile 里面添加如下几个变量声明，全局中文显示
 ```
 export LANG=zh_CN.UTF-8
 export LANGUAGE=zh_CN:en_US
@@ -128,5 +128,24 @@ feh --bg-scale /usr/share/background/Windows-10-blue-light_2560x1440.jpg
 ```
 new_window 1pixel
 ```
+安装lightdm主要因为teamviewer不能在xorg-xinit模式下启动才出此下策
+```
+pacman -S lightdm lightdm-gtk-greeter
+安装完成后需要在配置文件中添加如下内容：
+有时候出现lightdm启动不了的情况，可能系统启动太快了，LightDM 服务在图形驱动加载前就启动了
+/etc/lightdm/lightdm.conf
+[LightDM]
+logind-check-graphical=true
+
+/etc/lightdm/Xsession
+#srandr --output Virtual-1 --mode 1360x768
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=fcitx
+exec fcitx &
+ecec $@
+```
+
+
 
 

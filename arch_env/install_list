@@ -3,6 +3,9 @@ rofi				命令搜索类似dmenu
 rxvt-uicode			终端
 i3status			状态栏
 i3-gaps				图形界面（i3-wm改版）
+xorg				图形界面服务端
+lightdm
+lightdm-gtk-greeter		图形界面引导程序
 
 fcitx fcitx-im			输入法
 fcitx-sunpinyin
