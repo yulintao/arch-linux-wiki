@@ -12,6 +12,10 @@ fcitx-sunpinyin
 fcitx-configtool
 fcitx-im
 fcitx-table-other
+tig/git				代码管理与日志查看
+radare2				反汇编工具
+aria2				p2p下载aria2c
+axel				加速pacman 更新
 
 feh 				设置背景图片
 ffmpeg				录屏软件
