@@ -10,3 +10,4 @@ mod + d 启动应用程序
 ffplay 播放视频，音频
 ffmpeg 视频转换，屏幕录制
 wps(et,wpp,wps|分别表示excel,ppt,word)
+$mod+Shift+space 将标签模式或者堆叠模式改为平铺模式
