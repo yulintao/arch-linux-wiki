@@ -142,7 +142,10 @@ feh --bg-scale /usr/share/background/Windows-10-blue-light_2560x1440.jpg
 new_window 1pixel
 ```
 
-
+**nmcli 设置链接网络例如：***
+```
+nmcli device wifi connect xxx password ***
+```
 
 
 
