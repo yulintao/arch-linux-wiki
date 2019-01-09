@@ -33,7 +33,7 @@ ttf-font-awesome		字体
 adobe-source-han-serif-cn-fonts	宋体
 awesome-terminal-fonts
 libinput			触摸板音频输入(synclient)
-//xf86-input-synaptics		停止维护
+xf86-input-synaptics
 i3lock 				锁屏
 tmux				多终端分屏
 pavucontrol			音频管理

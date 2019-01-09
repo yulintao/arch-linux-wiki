@@ -83,7 +83,9 @@ arandr 设置多显示器
 
 **禁用触摸板**
 需要用到这两个包：```libinput xf86-input-libinput```
+
 然后将```/usr/share/X11/xorg.conf.d/70-synaptics.conf``` 拷贝到```/etc/X11/xorg.conf.d```下面，
+```sudo ln -s /usr/share/X11/xorg.conf.d/40-libinput.conf /etc/X11/xorg.conf.d/40-libinput.conf```
 然后在```.config/i3/config```里面设置一条```exec synclient TouchpadOff=1```
 
 **输入法不能用的问题：**
