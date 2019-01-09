@@ -75,8 +75,10 @@ xrandr --output HDMI-1 --mode 1920x1080
 ```
 **设置多个显示器**
 ```
+arandr 设置多显示器
 (https://wiki.archlinux.org/index.php/xrandr#Manage_2-monitors)
 (https://wiki.archlinux.org/index.php/xrandr)
+
 ```
 
 **禁用触摸板**
@@ -146,6 +148,5 @@ new_window 1pixel
 ```
 nmcli device wifi connect xxx password ***
 ```
-
 
 
