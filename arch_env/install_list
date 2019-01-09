@@ -10,7 +10,6 @@ lightdm-gtk-greeter		图形界面引导程序
 fcitx fcitx-im			输入法
 fcitx-sunpinyin
 fcitx-configtool
-fcitx-im
 fcitx-table-other
 tig/git				代码管理与日志查看
 radare2				反汇编工具
@@ -21,7 +20,6 @@ feh 				设置背景图片
 ffmpeg				录屏软件
 zsh				zshell
 pulsemixer			声音调节快捷键等
-mpc				视频播放/暂停
 mpd				音乐播放服务端
 mpc				音乐播放客户端
 toxcore				p2p 聊天工具
@@ -34,8 +32,8 @@ polipo				socket5 转 http代理
 ttf-font-awesome		字体
 adobe-source-han-serif-cn-fonts	宋体
 awesome-terminal-fonts
-libinput			触摸板音频输入
-xf86-input-synaptics
+libinput			触摸板音频输入(synclient)
+//xf86-input-synaptics		停止维护
 i3lock 				锁屏
 tmux				多终端分屏
 pavucontrol			音频管理
