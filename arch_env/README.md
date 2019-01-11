@@ -150,5 +150,6 @@ new_window 1pixel
 ```
 nmcli device wifi connect xxx password ***
 ```
-
+** urxvt 关闭响铃 **
+alsamixer 选择 Beep 把他改成MM即可
 
