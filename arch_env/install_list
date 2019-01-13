@@ -1,5 +1,4 @@
 vim				编辑器
-rofi				命令搜索类似dmenu
 rxvt-uicode			终端
 i3status			状态栏
 i3-gaps				图形界面（i3-wm改版）
@@ -11,6 +10,10 @@ fcitx fcitx-im			输入法
 fcitx-sunpinyin
 fcitx-configtool
 fcitx-table-other
+fcitx-gtk2
+fcitx-gtk3
+fcitx-qt4
+fcitx-qt5
 tig/git				代码管理与日志查看
 radare2				反汇编工具
 aria2				p2p下载aria2c
@@ -19,10 +22,10 @@ axel				加速pacman 更新
 feh 				设置背景图片
 ffmpeg				录屏软件
 zsh				zshell
+zsh-syntax-highlighting
 pulsemixer			声音调节快捷键等
 mpd				音乐播放服务端
 mpc				音乐播放客户端
-toxcore				p2p 聊天工具
 zathura				pdf 阅读器
 zathura-pdf-mupdf		zathura pdf等插件
 thunar				文件资源管理器
@@ -40,7 +43,6 @@ tmux				多终端分屏
 pavucontrol			音频管理
 pulseaudio			音频管理
 alsa-utils			声卡设置，声音管理
-pulsemixer			声卡
 telegram-desktop		tg
 fd				文件搜索
 highlight			命令行高亮
@@ -49,3 +51,150 @@ rofi				类似dmenu，索引可执行程序
 ntfs-3g				挂在ntfs硬盘
 clang 
 toxcore				即时p2p聊天工具
+arandr				显示器设置
+archlinuxcn-keyring		keyring
+aria2-fast			p2p下载
+atool
+aurman				aur 下载软件
+binutils
+bison
+bzip2
+catdoc
+cmocka
+coreutils
+cryptsetup
+cscope
+deepin-wine
+deepin-wine-tim
+deepin-wine-wechat
+device-mapper
+dhcpcd
+dialog
+diffutils
+e2fsprogs
+ethtool
+fakeroot
+findutils
+firefox
+gettext
+git
+gzip
+haveged
+highlight
+htop
+hwloc
+i3-gaps
+i3lock
+i3status
+inetutils
+intel-ucode
+iproute2
+iputils
+iw
+jfsutils
+libnetfilter_queue
+libpng12
+libtool
+licenses
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+logrotate
+lvm2
+mdadm
+metasploit
+nano
+netctl
+noto-fonts-emoji
+openssh
+openvpn
+os-prober
+patch
+pciutils
+polipo
+powerline-fonts
+powerline2
+procps-ng
+psmisc
+pygtk
+python-pip
+python2-notify
+python2-pyopenssl
+qbittorrent
+ranger
+reiserfsprogs
+s-nail
+screenfetch
+shadow
+shadowsocks-libev
+skypeforlinux-stable-bin
+sysfsutils
+sysstat
+systemd
+systemd-sysvcompat
+tcpdump
+teamviewer
+telegram-desktop
+texinfo
+the_silver_searcher
+touchpad-disabler
+unzip
+usbutils
+util-linux
+vi
+w3m
+wine
+wpa_supplicant
+wps-office
+xf86-video-vesa
+xfsprogs
+xorg-bdftopcf
+xorg-docs
+xorg-font-util
+xorg-fonts-100dpi
+xorg-fonts-75dpi
+xorg-fonts-encodings
+xorg-iceauth
+xorg-luit
+xorg-mkfontdir
+xorg-mkfontscale
+xorg-server
+xorg-server-common
+xorg-server-devel
+xorg-server-xdmx
+xorg-server-xephyr
+xorg-server-xnest
+xorg-server-xvfb
+xorg-server-xwayland
+xorg-sessreg
+xorg-setxkbmap
+xorg-smproxy
+xorg-x11perf
+xorg-xauth
+xorg-xbacklight
+xorg-xcmsdb
+xorg-xcursorgen
+xorg-xdpyinfo
+xorg-xdriinfo
+xorg-xev
+xorg-xgamma
+xorg-xhost
+xorg-xinput
+xorg-xkbcomp
+xorg-xkbevd
+xorg-xkbutils
+xorg-xkill
+xorg-xlsatoms
+xorg-xlsclients
+xorg-xmodmap
+xorg-xpr
+xorg-xprop
+xorg-xrandr
+xorg-xrdb
+xorg-xrefresh
+xorg-xset
+xorg-xsetroot
+xorg-xvinfo
+xorg-xwd
+xorg-xwininfo
+xorg-xwud
