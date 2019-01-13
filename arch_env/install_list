@@ -24,6 +24,7 @@ mpd				音乐播放服务端
 mpc				音乐播放客户端
 toxcore				p2p 聊天工具
 zathura				pdf 阅读器
+zathura-pdf-mupdf		zathura pdf等插件
 thunar				文件资源管理器
 shadowsocks-libev		翻墙
 net-tools			网络管理器
