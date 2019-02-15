@@ -28,12 +28,12 @@ logind-check-graphical=true
 
 /etc/lightdm/Xsession
 
-#srandr --output Virtual-1 --mode 1360x768
+#xrandr --output Virtual-1 --mode 1360x768
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
-export XMODIFIERS=fcitx
-exec fcitx &
-ecec $@
+export XMODIFIERS="@im=fcitx"
+#exec fcitx &
+exec $@
 ```
 
 安装 **skypeforlinux-bin,vmware-workstation**
