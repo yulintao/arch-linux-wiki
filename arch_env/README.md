@@ -115,6 +115,12 @@ URxvt.font:xft:Source Code Pro:antialias=True:pixelsize=15,xft:SourceHanSerifCN-
 echo 500 > /sys/class/backlight/intel_backlight/brightness
 ```
 
+自定义dns，不被networkmanager修改/etc/resolv.conf，在 /etc/NetworkManager/system-connections 中对应的wifi配置文件中加入如下配置
+[ipv4]
+dns=127.0.0.1
+ignore-auto-dns=true
+method=auto
+
 **字体 思源黑体:**
 ```
 pacman -S adobe-source-han-sans-cn-fonts
