@@ -56,6 +56,7 @@ archlinuxcn-keyring		keyring
 aria2-fast			p2p下载
 atool
 aurman				aur 下载软件
+kchmviewer			chm 文档工具
 binutils
 bison
 bzip2
