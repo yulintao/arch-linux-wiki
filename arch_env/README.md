@@ -164,3 +164,7 @@ nmcli device wifi connect xxx password ***
 ** urxvt 关闭响铃 **
 alsamixer 选择 Beep 把他改成MM即可
 
+pavucontrol 音量控制，图形界面
+
+
+
