@@ -112,7 +112,7 @@ URxvt.font:xft:Source Code Pro:antialias=True:pixelsize=15,xft:SourceHanSerifCN-
 ```
 **设置屏幕亮度：数字表示设置的亮度值**
 ```
-echo 500 > /sys/class/backlight/intel_backlight/brightness
+echo 300 > /sys/class/backlight/intel_backlight/brightness
 ```
 
 自定义dns，不被networkmanager修改/etc/resolv.conf，
