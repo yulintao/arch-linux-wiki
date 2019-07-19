@@ -19,6 +19,9 @@ radare2				反汇编工具
 aria2				p2p下载aria2c
 axel				加速pacman 更新
 
+simplescreenrecorder 录屏软件
+obs-studio			录屏软件
+vlc					流媒体播放软件
 feh 				设置背景图片
 ffmpeg				录屏软件
 zsh				zshell
