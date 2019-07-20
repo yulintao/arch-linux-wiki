@@ -166,5 +166,16 @@ alsamixer 选择 Beep 把他改成MM即可
 
 pavucontrol 音量控制，图形界面
 
+** Troubleshooting **
+```
+这里会列举一些常见问题的解决方案：
+1、通过rxvt-unicode 远程服务器出现“rxvt-unicode-256color': unknown terminal type” 错误，
+解决办法是在远程服务器的工作目录中创建'~/.terminfo/r/'目录，然后从本机的/usr/share/terminfo/r/目录
+中拷贝rxvt-unicode rxvt-unicode-256color 到远程机器刚刚创建的目录中即可。
+
+
+```
+
+
 
 
