@@ -125,6 +125,9 @@ method=auto
 方法二：
 /etc/resolv.conf.head 里面添加需要的dns
 
+wifi 经常自动断开
+将wifi电源管理关掉
+sudo iwconfig wlp2s0 power off
 
 **字体 思源黑体:**
 ```
