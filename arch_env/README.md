@@ -149,6 +149,8 @@ export LANG=zh_CN.UTF-8
 export LANGUAGE=zh_CN:en_US
 export LC_CTYPE=en_US.UTF-8
 ```
+如果系统中有安装其他的无线管理类的工具，也可以用其他的管理工具代替，管理工具之间都是互斥的，同时只能用一个，例如：
+Connman,Netctl,NetworkManager,Wicd,Wifi Radar这些，参考[Wifi这一章](https://wiki.archlinux.org/index.php/Wireless_network_configuration_(简体中文)#Realtek)
 
 **添加桌面背景图:**
 ```
