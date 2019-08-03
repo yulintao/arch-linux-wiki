@@ -14,6 +14,8 @@ fcitx-gtk2
 fcitx-gtk3
 fcitx-qt4
 fcitx-qt5
+gthumb				图片查看工具
+tig/git				代码管理与日志查看
 tig/git				代码管理与日志查看
 radare2				反汇编工具
 aria2				p2p下载aria2c
