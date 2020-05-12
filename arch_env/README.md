@@ -181,6 +181,15 @@ pavucontrol 音量控制，图形界面
 
 ```
 
+**禁止终端发出声音**
+两种方法:
+```
+第一种：
+# rmmod pcspkr
 
+第二种：
+# echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf
+
+```
 
 
