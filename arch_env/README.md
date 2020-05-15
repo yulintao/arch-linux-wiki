@@ -42,6 +42,11 @@ vmware-workstation 需要在```/etc/init.d/```目录建立启动脚本，所以�
 创建这个init.d目录，同时在重启以后需要启动vmware需要手动运行
 ```/etc/init.d/vmware start``` 脚本
 
+**reload Urxvt 配置文件**
+```
+xrdb -merge ~/.Xresources
+```
+
 ** 忘记密钥环 **
 
 删掉```/home/`whoami`/.local/share/keyring```重新设置密钥
@@ -177,7 +182,6 @@ pavucontrol 音量控制，图形界面
 1、通过rxvt-unicode 远程服务器出现“rxvt-unicode-256color': unknown terminal type” 错误，
 解决办法是在远程服务器的工作目录中创建'~/.terminfo/r/'目录，然后从本机的/usr/share/terminfo/r/目录
 中拷贝rxvt-unicode rxvt-unicode-256color 到远程机器刚刚创建的目录中即可。
-
 
 ```
 
