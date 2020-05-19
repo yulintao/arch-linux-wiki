@@ -48,16 +48,10 @@ URxvt.borderLess:False
 !!URxvt.perl-ext-common:  ...,resize-font,...
 !!字体设置
 Xft.dpi:96
-URxvt.font:xft:Source Code Pro:antialias=True:pixelsize=16:xft:Fantasque Sans Mono:antialias=True:pixelsize=16:Noto Sans Mono:antialias=True:pixelsize=16
 
-URxvt.boldfont:xft:Source Han Serif CN:antialias=True:pixelsize=16:xft:Fantasque Sans Mono:antialias=True:pixelsize=16:xft:Source Code Pro:antialias=True:pixelsize=16:Noto Sans Mono:antialias=True:pixelsize=16
-
-!!URxvt.font:xft:Fantasque Sans Mono:antialias=True:pixelsize=16:xft:Source Code Pro:antialias=True:pixelsize=16
 !!URxvt.boldfont:xft:Fantasque Sans Mono:antialias=True:pixelsize=16:xft:Source Code Pro:antialias=True:pixelsize=16
 !!URxvt.font:xft:Source Code Pro:antialias=True:pixelsize=15
 !!URxvt.boldfont:xft:Source Code Pro:antialias=True:pixelsize=15
-!!URxvt.font:xft:Meslo LG M for Powerline:pixelsize=15,xft:Source Code Pro for Powerline:pixelsize=15,xft:SourceHanSerifCN-Medium:pixelsize=15
-!!URxvt.boldfont:xft:Meslo LG M for Powerline:pixelsize=15,xft:Source Code Pro for Powerline:pixelsize=15,xft:SourceHanSerifCN-Medium:pixelsize=15
-
+URxvt.font:xft:Source Code Pro for Powerline:pixelsize=16,xft:Meslo LG M for Powerline:pixelsize=16,xft:SourceHanSerifCN-Medium:pixelsize=15
 
 
