@@ -53,5 +53,6 @@ Xft.dpi:96
 !!URxvt.font:xft:Source Code Pro:antialias=True:pixelsize=15
 !!URxvt.boldfont:xft:Source Code Pro:antialias=True:pixelsize=15
 URxvt.font:xft:Source Code Pro for Powerline:pixelsize=16,xft:Meslo LG M for Powerline:pixelsize=16,xft:SourceHanSerifCN-Medium:pixelsize=15
+URxvt.boldfont:xft:Source Code Pro for Powerline:pixelsize=16,xft:Meslo LG M for Powerline:pixelsize=16,xft:SourceHanSerifCN-Medium:pixelsize=15
 
 

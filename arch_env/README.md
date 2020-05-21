@@ -46,6 +46,8 @@ vmware-workstation 需要在```/etc/init.d/```目录建立启动脚本，所以�
 ```
 xrdb -merge ~/.Xresources
 ```
+**截图工具**
+`flameshoot`
 
 ** 忘记密钥环 **
 
