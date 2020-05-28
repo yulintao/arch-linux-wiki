@@ -4,6 +4,11 @@ URxvt.preeditType:Root
 URxvt.inputMethod:fcitx
 !!颜色设置数字越大选择后越明显
 URxvt.depth:100
+!! 背景透明
+URxvt.transparent:true
+!! 背景阴影
+URxvt.shading:70
+
 !URxvt.depth:32
 !!中括号内数表示透明度
 URxvt.inheritPixmap:true
@@ -54,5 +59,3 @@ Xft.dpi:96
 !!URxvt.boldfont:xft:Source Code Pro:antialias=True:pixelsize=15
 URxvt.font:xft:Source Code Pro for Powerline:pixelsize=16,xft:Meslo LG M for Powerline:pixelsize=16,xft:SourceHanSerifCN-Medium:pixelsize=15
 URxvt.boldfont:xft:Source Code Pro for Powerline:pixelsize=16,xft:Meslo LG M for Powerline:pixelsize=16,xft:SourceHanSerifCN-Medium:pixelsize=15
-
-
