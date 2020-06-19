@@ -88,6 +88,12 @@ arandr 设置多显示器
 
 ```
 
+**安全删除移动硬盘**
+```
+pacman -S udisks2
+udisksctl power-off
+```
+
 **禁用触摸板**
 需要用到这两个包：```libinput xf86-input-libinput```
 
