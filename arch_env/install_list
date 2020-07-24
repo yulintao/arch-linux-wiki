@@ -6,6 +6,10 @@ i3-gaps				图形界面（i3-wm改版）
 xorg				图形界面服务端
 lightdm
 lightdm-gtk-greeter		图形界面引导程序
+lightdm-webkit2-greeter		图形界面美化程序
+
+lightdm-webkit2-theme-glorious  lightdm 主题
+lightdm-webkit-theme-litarvan   lightdm 主题
 
 fcitx fcitx-im			输入法
 fcitx-sunpinyin

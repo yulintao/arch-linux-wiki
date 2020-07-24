@@ -61,4 +61,9 @@ fi
 
 echo "X session wrapper complete, running session $@"
 
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS="@im=fcitx"
+# exec fcitx &
+
 exec $@
